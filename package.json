@@ -1,0 +1,36 @@
+{
+  "name": "rules-validation-api",
+  "version": "1.0.0",
+  "description": "API for validating rules through passed data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build",
+    "build": "babel src --out-dir build",
+    "dev": "nodemon --exec babel-node src"
+  },
+  "keywords": [
+    "rules",
+    "validation",
+    "data",
+    "api",
+    "node",
+    "express"
+  ],
+  "author": "RedJanvier",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "joi": "^17.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
